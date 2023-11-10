@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d7a3330b-afd1-467a-9058-2f41b538214d}">
+		<property name="assetPath">
+			<value>Ghosts.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.030204081632653</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ce14cd3a-3200-4cbf-8c90-1bffa14cfc74}</destination>
+		</relationship>
+	</object>
+</objects>

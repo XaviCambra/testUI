@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMod/Build/Desktop/FX.bank
   Name: FX
   StudioPath: bank:/FX
-  lastModified: 638352397538480518
+  lastModified: 638352406608943506
   FileSizes:
   - Name: Desktop
-    Value: 7072
+    Value: 36096
   Exists: 1
 --- !u!114 &-46090478900725829
 MonoBehaviour:
@@ -60,13 +60,41 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 6271179331137615841}
   - {fileID: 6019348045766245463}
+  - {fileID: 2639937434321741006}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7998649217860010165}
   StringsBanks:
   - {fileID: 5620762026345800450}
-  cacheTime: 638352397551763589
+  cacheTime: 638352406608943506
   cacheVersion: 131609
+--- !u!114 &2639937434321741006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ghosts
+  m_EditorClassIdentifier: 
+  Path: event:/Ghosts
+  Guid:
+    Data1: -293543370
+    Data2: 1216201292
+    Data3: 373303466
+    Data4: 2145601340
+  Banks:
+  - {fileID: -1214330066856336762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &5620762026345800450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,10 +110,10 @@ MonoBehaviour:
   Path: FMod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638352397537744263
+  lastModified: 638352406608219898
   FileSizes:
   - Name: Desktop
-    Value: 904
+    Value: 940
   Exists: 1
 --- !u!114 &6019348045766245463
 MonoBehaviour:
@@ -156,7 +184,7 @@ MonoBehaviour:
   Path: FMod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638352397537734302
+  lastModified: 638352406608209928
   FileSizes:
   - Name: Desktop
     Value: 1036
