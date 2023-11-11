@@ -21,4 +21,9 @@ public class FModEvents : MonoBehaviour
 
     [field: Header("Ghosts SFX")]
     [field: SerializeField] public EventReference ghostsAppear { get; private set; }
+
+    [field: Header("Music")]
+    [field: SerializeField] public EventReference music { get; private set; }
+
+
 }

@@ -25,17 +25,6 @@ namespace TMPro.Examples
             StartCoroutine(WarpText());
         }
 
-
-        private AnimationCurve CopyAnimationCurve(AnimationCurve curve)
-        {
-            AnimationCurve newCurve = new AnimationCurve();
-
-            newCurve.keys = curve.keys;
-
-            return newCurve;
-        }
-
-
         /// <summary>
         ///  Method to curve text along a Unity animation curve.
         /// </summary>
@@ -52,21 +41,9 @@ namespace TMPro.Examples
             Matrix4x4 matrix;
 
             m_TextComponent.havePropertiesChanged = true; // Need to force the TextMeshPro Object to be updated.
-            CurveScale *= 10;
-            float old_CurveScale = CurveScale;
-            AnimationCurve old_curve = CopyAnimationCurve(VertexCurve);
 
             while (true)
             {
-                if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
-                {
-                    yield return null;
-                    continue;
-                }
-
-                old_CurveScale = CurveScale;
-                old_curve = CopyAnimationCurve(VertexCurve);
-
                 m_TextComponent.ForceMeshUpdate(); // Generate the mesh and populate the textInfo with data we can use and manipulate.
 
                 TMP_TextInfo textInfo = m_TextComponent.textInfo;

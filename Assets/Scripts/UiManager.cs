@@ -14,4 +14,9 @@ public class UiManager : MonoBehaviour
     {
         AudioManager.instance.PlayOneShot(sound);
     }
+
+    public void OnOffMusic()
+    {
+        AudioManager.instance.OnOffMusic();
+    }
 }

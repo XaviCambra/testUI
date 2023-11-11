@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: FMod/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638352397551763589
+  lastModified: 638353038783733680
   FileSizes:
   - Name: Desktop
-    Value: 1365920
+    Value: 1366048
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   - {fileID: 7998649217860010165}
   StringsBanks:
   - {fileID: 5620762026345800450}
-  cacheTime: 638352406608943506
+  cacheTime: 638353038783733680
   cacheVersion: 131609
 --- !u!114 &2639937434321741006
 MonoBehaviour:
@@ -137,7 +137,7 @@ MonoBehaviour:
   - {fileID: -46090478900725829}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
